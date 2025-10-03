@@ -40,10 +40,6 @@ The package has the following dependencies:
 - `matplotlib`  
 - `scikit-learn`  
 
-## Note
-
-This repository includes both a simplified demonstration on a synthetic test function and an electrolyte optimization demo.  
-The complete codebase, including all experiments and implementations described in the manuscript, will be made publicly available upon acceptance of the paper.
 
 ## Reference
 
