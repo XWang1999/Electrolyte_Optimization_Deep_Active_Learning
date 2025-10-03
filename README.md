@@ -12,6 +12,26 @@ The code demonstrates:
 - Visualization of the optimization process on a synthetic test function  
 - A numerical demo for electrolyte optimization, with full details in the provided source files  
 
+
+## Repository Structure
+
+- **Electrolyte_Optimization_Demo_DAL.ipynb**  
+  The main Jupyter Notebook demo for electrolyte optimization.  
+  Demonstrates 3 iterations of the deep active learning framework, including data loading, model training, and optimization visualization.  
+
+- **DAL_numerical_demo.py**  
+  Numerical example of the DAL framework implemented on a synthetic test function.  
+  Run directly from the command line:  
+  ```bash
+  python DAL_numerical_demo.py 
+
+- **data/**  
+    Contains sequential datasets (`D0_data.csv` – `D3_data.csv`) used in the electrolyte optimization demo.
+
+- **dknet/**  
+  Contains neural network and kernel modules used to construct the deep kernel learning architecture.  
+
+
 ## Requirements
 
 The package has the following dependencies:
